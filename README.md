@@ -8,7 +8,7 @@ practicing.
 ISBN: 0-13-010968-1
 
 The way the book is written, not all of the code snippets will be typed.
-The snippets that are complete I.E. filer.c will be typed up uploaded. 
+The snippets that are complete I.E. filer.c will be typed up and uploaded. 
 
 I am using Dos 6.22 with Microsoft QuickC 2.0. I do have MASM 5.1
 installed on the machine. It is running on PCem17 with a Socket 7
