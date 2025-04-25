@@ -19,7 +19,9 @@ I needed the practice.
 Although I have discovered it is possible to get a very duck taped network
 setup for contributing to GitHub directly from Dos 6.22. It was too much of
 a hassle if wanting to compile on the same machine. I wouldn't consider it
-good for production even if it did work. 
+good for production even if it did work. I am typing the code in vscode
+on my local machine. Then I move the files over to compile, build, and test
+on the DOS machine.
 
 /******************************************************************************/
 /* TODO: Add any other notes while going through the book.                    */
