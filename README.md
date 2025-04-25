@@ -30,6 +30,8 @@ machine. I then just copy the repo over to a folder on the dos drive.
 The book is setup for 8.3 filenames already and I have been careful in
 trying to make sure that everything in the repo is compatible with 8.3
 filenames for anything I find that might be relevent and add to the repo.
+.gitignore is currently the only filename that gets truncated, but I delete
+it before dismounting and booting the dos machine.
 
 /******************************************************************************/
 /* TODO: Add any other notes while going through the book.                    */
