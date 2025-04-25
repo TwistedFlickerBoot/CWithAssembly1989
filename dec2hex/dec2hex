@@ -1,0 +1,27 @@
+/******************************************************************************************************/
+/* DEC2HEX.C                                                                                          */
+/* From C With Assembly by Steven Holzner : Page 27-29 by Brady Books                                 */
+/******************************************************************************************************/
+#include <stdio.h>
+
+main()
+{
+    unsigned int i = 0, index = 0, hexdig = 0;
+    char outstring[10];
+
+    printf("Type a positive integer please: ");
+    scanf("%d", &i);
+
+    while(i)
+    {
+        hexdig = (i%16 > 9 ? i%16-10+'a' : i%16+'0');
+        outstring[index++] = hexdig;
+        i /= 16;
+    }
+    /* print the index in reverse as the array was filled from zero to finish. */
+    printf("That number in hexadecimal value is: ");
+    while(index)
+    {
+        putchar(outstring[--index]);
+    }
+}
