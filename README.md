@@ -24,8 +24,8 @@ Total memory      32,768K    2,810K   29,958K
 
 Total under 1 MB     731K      109K      622K
 
-Largest executable program size       617K (631,744 bytes)  
-Largest free upper memory block         5K   (4,976 bytes)  
+Largest executable program size       617K (631,744 bytes) 
+Largest free upper memory block         5K   (4,976 bytes)
 MS-DOS is resident in the high memory area.
 
 The book is setup for QuickC or TurboC.
