@@ -25,6 +25,12 @@ good for production even if it did work. I am typing the code in vscode
 on my local machine. Then I move the files over to compile, build, and test
 on the DOS machine.
 
+My workflow for above is mounting the VHD created when making the PCem
+machine. I then just copy the repo over to a folder on the dos drive. 
+The book is setup for 8.3 filenames already and I have been careful in
+trying to make sure that everything in the repo is compatible with 8.3
+filenames for anything I find that might be relevent and add to the repo.
+
 /******************************************************************************/
 /* TODO: Add any other notes while going through the book.                    */
 /******************************************************************************/
