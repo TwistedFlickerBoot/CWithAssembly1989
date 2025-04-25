@@ -5,6 +5,8 @@ going through an old book for history and geeky fun. I figured I would make
 a repo to add the code to my GitHub and it also helps muscle memory by
 practicing. 
 
+ISBN: 0-13-010968-1
+
 The way the book is written, not all of the code snippets will be typed.
 The snippets that are complete I.E. filer.c will be typed up uploaded. 
 
