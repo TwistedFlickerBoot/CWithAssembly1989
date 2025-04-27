@@ -36,7 +36,7 @@ main()
     else 
     {
         printf("Error number: %d returned\n", errno);
-        printf("Error reading numbers.dat\n");
+        perror("Error reading numbers.dat\n");
     }
     printf("%s owes %.2f\n", buffer.name, buffer.owes);
     fclose(file_pointer);
