@@ -9,10 +9,25 @@
 /* EXAMPLE IN THE BOOK DEALING WITH NUMBERS.DAT CALLED NUMBERS.C. PG-55 IN BOOK              */
 /******************************************************************************************* */
 #include <stdio.h>
+#define INDEX 15
 
+struct entry 
+{
+    char name[20];
+    float owes;
+}
 main()
 {
     FILE *file_pointer;
+    struct entry farray[INDEX];
+
+    if((file_pointer = fopen("numbers.dat", "w")) == NULL) 
+        fwrite(farray, sizeof(struct entry), INDEX, file_pointer);
+    else printf("Error writing numbers.dat\n");  
+/*  
+    // This code is commented out because it is not even remotely close to the example on
+    // page 55. I think the author meant to use numbers.c instead of filer.c but this is
+    // good practice for muscle memory.   
     int num;
 
     if((file_pointer = fopen("number.dat", "w")) == NULL) {
@@ -21,4 +36,5 @@ main()
         fclose(file_pointer);
     }
     else printf("Error writing file.txt.\n");
+    */
 }
