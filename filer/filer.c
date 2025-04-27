@@ -5,6 +5,8 @@
 /*********************************************************************************************/
 /* UPDATING ALONG THE CHAPTER, GIT SHOULD HAVE THE HISTORY BUT I WILL ALSO COMMENT OUT       */
 /* INSTEAD OF DELETING                                                                       */
+/* I MAY BE TIRED FROM LOOKING AT CODE BUT I THINK THIS CHANGE WAS MEANT FOR THE PREVIOUS    */
+/* EXAMPLE IN THE BOOK DEALING WITH NUMBERS.DAT CALLED NUMBERS.C. PG-55 IN BOOK              */
 /******************************************************************************************* */
 #include <stdio.h>
 
