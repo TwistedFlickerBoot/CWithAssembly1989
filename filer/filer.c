@@ -21,6 +21,11 @@ main()
     FILE *file_pointer;
     struct entry farray[INDEX];
 
+    strcpy(farray[0].name, "Ebenezer Scrooge");
+    farray[0].owes = 0.01;
+    strcpy(farray[1].name, "Bob Cratchit");
+    farray[1].owes = 312.59;
+    ;
     if((file_pointer = fopen("numbers.dat", "w")) == NULL) 
         fwrite(farray, sizeof(struct entry), INDEX, file_pointer);
     else printf("Error writing numbers.dat\n");  
